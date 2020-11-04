@@ -1,28 +1,34 @@
 /* Write your CSS here. */
+.pf {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr ;
+}
+
 .wgs {
-  height: 482px;
+  height: 241px;
   position: absolute;
-  width: 640px;
+  width: 320px;
   display: inline-block;
   overflow: hidden;
 }
 
 .wgs__mole-head {
-  height: 356px;
+  height: 178px;
   position: absolute;
-  width: 376px;
+  width: 188px;
   top: 0px;
-  left: 109px;
-  transition: margin-top .25s
+  left: 54.5px;
+  transition: margin-top 0.25s;
 }
 
 .wgs__dirt-pile {
-  height: 220px;
+  height: 110px;
   position: absolute;
-  width: 640px;
-  top: 262px;
+  width: 320px;
+  top: 131px;
 }
 
 .wgs__mole-head--hidden {
-  margin-top: 482px;
+  margin-top: 241px;
 }
