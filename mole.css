@@ -7,7 +7,7 @@
 
 .wgs {
   height: 241px;
-  position: absolute;
+  position: relative;
   width: 320px;
   display: inline-block;
   overflow: hidden;
